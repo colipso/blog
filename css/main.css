@@ -1,9 +1,10 @@
 nav {
-    background-color:#79797c;
+    /*background-color:#79797c;*/
     height: 50px;
+    background-color: rgba(0,0,0,0.4);
 }
 #banner {
-    background-color:transparent;
+    background-color:rgba(0,0,0,0.4);
     height: 700px ;
     color: #fff;
 }
@@ -75,6 +76,7 @@ header {
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .green-section {
@@ -100,6 +102,12 @@ h2 {
     font-size: 30px;
 }
 
+p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
 .green-section .hr {
     background-color: #fff;
     margin: 20px auto;
@@ -115,11 +123,24 @@ p {
 
 .green-section .icon-group .icon {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color:#75a3bd;
     transform: rotate(45deg);
     margin: 20px;
+    padding: 10px;
+
+}
+
+.green-section .icon-group .icon i{
+    font-size: 40px;
+    transform: rotate(-45deg);
+    display: relative;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    color: #e2eaee;
 }
 
 .icon-group {
@@ -185,4 +206,105 @@ p {
 
 .article-preview:nth-child(odd){
     background: rgb(255,255,255,0.05);
+}
+
+.purple-section{
+    background-color: #3f3965;
+    color: #fff;
+    padding: 80px;
+}
+
+.heading-wapper{
+    text-align: center;
+}
+
+
+
+.heading-wapper .hr{
+    background-color: #373259;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.clear-fix::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+.heading-wapper .sub-heading{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.card:first-child{
+    background: rgb(0,0,0,0.05);
+}
+
+.card:nth-child(2){
+    background: rgb(0,0,0,0.1);
+}
+
+.card:nth-child(3){
+    background: rgb(0,0,0,0.15);
+}
+
+.card:nth-child(4){
+    background: rgb(0,0,0,0.2);
+}
+
+.card:nth-child(5){
+    background: rgb(0,0,0,0.25);
+}
+
+.card:nth-child(6){
+    background: rgb(0,0,0,0.3);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul.share-group{
+    display:block;
+    margin: 0,auto;
+    width: 100%;
+    padding: 50px;
+}
+
+.share-group li{
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.copy{
+    padding-bottom: 20px;
+}
+
+li a {
+    color: #fff;
+}
+
+footer ul {
+    font-size: 20px;
+
 }
