@@ -125,3 +125,64 @@ p {
 .icon-group {
     margin-top: 80px;
 }
+
+.gray-section{
+    background: #252f34;
+    color:#fff;
+}
+
+.gray-section .image-section {
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+}
+
+.gray-section .text-section{
+    width: 60%;
+    
+}
+
+.article-preview > div{
+    float: left;
+}
+
+.article-preview::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-section{
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+.text-section h2{
+    margin-bottom: 3px;
+}
+
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.article-preview{
+    font-size: 0px;
+}
+
+.text-section > * {
+    max-width: 80%;
+}
+
+.article-preview:nth-child(odd){
+    background: rgb(255,255,255,0.05);
+}
