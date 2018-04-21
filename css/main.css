@@ -5,6 +5,7 @@ nav {
 #banner {
     background-color:transparent;
     height: 700px ;
+    color: #fff;
 }
 nav ul {
     list-style: none;
